@@ -5,7 +5,7 @@ const printPretty = (funct, ...parameters) => {
     console.log(`
       ### ${funct.name} ###
       ${funct.name}(${cleanParams});
-      result: [${funct(...parameters)}]
+      result: ${JSON.stringify(funct(...parameters))}
     `);
 };
 
