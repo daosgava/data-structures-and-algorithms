@@ -46,7 +46,7 @@
 */
 
 const binarySearch = (arr, num) => {
-    let lowerBound = 0;S
+    let lowerBound = 0;
     let upperBound = arr.length - 1;
 
     while( lowerBound <= upperBound) {
