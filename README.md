@@ -1,6 +1,6 @@
 # Data Structures and Algorithms
 
-The 💡 is to go through different algorithms and provide its efficiency in term of Big O notation. 
+The 💡 is to go through different algorithms and provide its complexity in term of Big O notation. 
 
 ## Algorithms
 - [Binary Search](https://github.com/daosgava/data-structures-and-algorithms/blob/main/algorithms/binarySearch.js)
