@@ -7,4 +7,4 @@ The 💡 is to go through different algorithms and provide its complexity in ter
 - [Bubble Sort](https://github.com/daosgava/data-structures-and-algorithms/blob/main/algorithms/bubbleSort.js)
 - [Selection Sort](https://github.com/daosgava/data-structures-and-algorithms/blob/main/algorithms/selectionSort.js)
   
-🚧  This is a work in progress  🚧 
+🚧 🚧 🚧   Work in progress  🚧 🚧 🚧 
