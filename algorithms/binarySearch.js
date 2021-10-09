@@ -65,4 +65,6 @@ const binarySearch = (arr, num) => {
     return null;
 };
 
+// TIME COMPLEXITY O(n)
+
 module.exports = binarySearch;

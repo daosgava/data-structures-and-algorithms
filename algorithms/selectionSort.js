@@ -46,6 +46,7 @@
     I = 3
     T = 4
     [1,2,2,7,4] => [1,2,2,4,7]
+
 */
 
 const selectionSort = (arr) => {
@@ -70,5 +71,7 @@ const selectionSort = (arr) => {
 
     return arr;
 };
+
+// TIME COMPLEXITY O(n^2)
 
 module.exports = selectionSort;
