@@ -53,4 +53,6 @@ const bubbleSort = (arr) => {
     return arr;
 };
 
+// TIME COMPLEXITY O(n^2)
+
 module.exports = bubbleSort;
