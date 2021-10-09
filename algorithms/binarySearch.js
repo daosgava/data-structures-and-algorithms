@@ -1,19 +1,52 @@
 /*
     Binary Search
     
-    This algorithm is meant be use for ordered arrays only.
-    1.  The idea is to calculate the mid-point based on the lower and upper bound of the input array.
-    2.  Validate if the input number is greater or smaller than the mid-point.
-        2.1.    If number is greater than the mid-point, the new lower bound would be the mid-point + 1
-                and the upper bound would keep its index.
-        2.2.    If number is smaller than the mid-point, this time, the lower bound would keep
-                its index and the upper bound would be the mid-point - 1.
-    3.  Finally, repeat all the steps until the lowerbound is grear than the upperbound.
+    This algorithm is meant be used for ordered arrays only. Its purpose is to search for a number.
 
+    Input array = [1,2,4,5,6,7,8]
+    search for the number 6
+
+    1.  The idea is to calculate the mid-point based on the lower and upper bound of the input array.
+        Lower bound = Index 0 
+        Upper bound = Index 6
+        Mid-point = 0 + 6 / 2 
+        Mid-point = 3 (Let's get the largest integer less than or equal to that result)  
+    2.  Validate if the input number is greater or smaller than the mid-point.
+        [1,2,4,5,6,7,8]
+               M
+        Mid-point value = 5
+        2.1.    If input number is greater than the Mid-point, the new lower bound would be the Mid-point + 1
+                and the upper bound would keep its index.
+                6 > 5 YES!
+                Lower bound = Mid-point + 1 = 4
+                Upper bound = 6
+                Go to step number 3 ;) 
+        2.2.    If input number is smaller than the Mid-point, this time, the lower bound would keep
+                its index and the upper bound would be the Mid-point - 1.
+    3.  Repeat all the steps while upper bound is grear than the lower bound or until the Mid-point value
+        is equal to the input num
+    
+    Lower bound = L, Upper bound = U, mid-point = M
+    Iteration 1
+    [1,2,4,5,6,7,8]
+     L     M     U
+    6 > 5 YES!
+
+    Iteration 2
+    [1,2,4,5,6,7,8]
+             L M U
+    6 > 7 NO!
+
+    Iteration 3
+    [1,2,4,5,6,7,8]
+             L
+             U
+             M
+    6 == 6 RETURN mid-point
 */
 
 const binarySearch = (arr, num) => {
-    let lowerBound = 0;
+    let lowerBound = 0;S
     let upperBound = arr.length - 1;
 
     while( lowerBound <= upperBound) {

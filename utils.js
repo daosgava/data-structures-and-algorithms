@@ -1,11 +1,18 @@
-const printPretty = (funct, ...parameters) => {
-    const stringParams = JSON.stringify(parameters);
+const cleanParams = (params) => {
+    const stringParams = JSON.stringify(params);
     const cleanParams = stringParams.substring(1).substring(0, stringParams.length-2);
+
+    return cleanParams;
+}
+
+const printPretty = (funct, ...parameters) => {
+    const cleanedParams = cleanParams(parameters);
+    const cleanedRes = JSON.stringify(funct(...parameters));
 
     console.log(`
       ### ${funct.name} ###
-      ${funct.name}(${cleanParams});
-      result: ${JSON.stringify(funct(...parameters))}
+      function call: ${funct.name}(${cleanedParams});
+      result: ${cleanedRes}
     `);
 };
 
