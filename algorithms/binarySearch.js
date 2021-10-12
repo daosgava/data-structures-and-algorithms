@@ -26,17 +26,19 @@
     3.  Repeat all the steps while upper bound is grear than the lower bound or until the Mid-point value
         is equal to the input num
     
+    e.g.
     Lower bound = L, Upper bound = U, mid-point = M
+
     Iteration 1
     [1,2,4,5,6,7,8]
      L     M     U
     6 > 5 YES!
-
+    ---------------
     Iteration 2
     [1,2,4,5,6,7,8]
              L M U
     6 > 7 NO!
-
+    ---------------
     Iteration 3
     [1,2,4,5,6,7,8]
              L
