@@ -73,5 +73,6 @@ const selectionSort = (arr) => {
 };
 
 // TIME COMPLEXITY O(n^2)
+// This algorithms is twice as faster as the bubble sort
 
 module.exports = selectionSort;
