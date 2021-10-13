@@ -56,7 +56,7 @@
     Then add tmpHolder value to trackedPosition + 1
     [1,1,2,5]
     
-    Iteration 2
+    Iteration 3
            5      
     [1,1,2, ]
     index = 3, tmpHolder = 5, trackedPosition = 2
