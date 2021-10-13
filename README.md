@@ -12,6 +12,6 @@ The 💡 is to go through different algorithms and provide its complexity in ter
 ## Commands
 Run project
 ```javascript
-node index.js
+node index
 ```  
 Work in progress  🚧 🚧 🚧 🚧 🚧 🚧 🚧 
