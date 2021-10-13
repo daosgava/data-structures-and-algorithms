@@ -7,5 +7,6 @@ The 💡 is to go through different algorithms and provide its complexity in ter
 - [Bubble Sort](https://github.com/daosgava/data-structures-and-algorithms/blob/main/algorithms/bubbleSort.js)
 - [Selection Sort](https://github.com/daosgava/data-structures-and-algorithms/blob/main/algorithms/selectionSort.js)
 - [Has Duplicated Number](https://github.com/daosgava/data-structures-and-algorithms/blob/main/algorithms/hasDuplicatedNumber.js)
+- [Insertion Sort](https://github.com/daosgava/data-structures-and-algorithms/blob/main/algorithms/insertionSort.js)
   
 Work in progress  🚧 🚧 🚧 🚧 🚧 🚧 🚧 
