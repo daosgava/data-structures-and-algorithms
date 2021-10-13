@@ -47,7 +47,7 @@
     index = 2, tmpHolder = 1, trackedPosition = 1
         Indented loop
         Iteration 1
-        2 > 1 YES! Then move 2 to the trackedPosition and move trackedPosition to the left.
+        2 > 1 YES! Then move 2 to the right and move trackedPosition to the left.
         [1, ,2,5]
         trackedPosition = 0
 
