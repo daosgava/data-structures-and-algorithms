@@ -2,8 +2,9 @@ const { printPretty } = require('./utils');
 const selectionSort = require('./algorithms/selectionSort');
 const binarySearch = require('./algorithms/binarySearch');
 const bubbleSort = require('./algorithms/bubbleSort');
-const hasDuplicatedNumber = require('./algorithms/hasDuplicatedNumber');
 const insertionSort = require('./algorithms/insertionSort');
+const hasDuplicatedNumber = require('./exercises/hasDuplicatedNumber');
+const isPalindrome = require('./exercises/palindromeChecker');
 
 const arrForSelectionSort = [4,3,5,6,1,1,8,9,2];
 printPretty(selectionSort, arrForSelectionSort);
@@ -20,3 +21,6 @@ printPretty(hasDuplicatedNumber, arrForHasDuplicatedNumbe);
 
 const arrForInsertionSort = [4,3,5,6,12,8,9,2];
 printPretty(insertionSort, arrForInsertionSort);
+
+const stringForIsPalindrome = 'racecar';
+printPretty(isPalindrome, stringForIsPalindrome);
