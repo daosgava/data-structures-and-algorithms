@@ -1,9 +1,36 @@
 /*
     Palindrome checker
-    The idea is to compare the first half of the string with the second half
+    -   The idea is to compare the first half of the string with the second half
+    -   Letters from each side should match
 
+    E.g
+    Input string = 'racecar'
+
+    Iteration 1
     'racecar'
      _     _
+    
+    r === r ? YES!
+
+    Iteration 2 
+    'racecar'
+      _   _
+    
+    a === a ? YES!
+
+    Iteration 3 
+    'racecar'
+       _ _
+    
+    c === c ? YES!
+
+    Iteration 4 
+    'racecar'
+        _
+    
+    e === e ? YES!
+
+    It's palindrome!
 */
 
 const isPalindrome = (str) => {
