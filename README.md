@@ -6,9 +6,11 @@ The 💡 is to go through different algorithms and provide their complexity in t
 - [Binary Search](https://github.com/daosgava/data-structures-and-algorithms/blob/main/algorithms/binarySearch.js)
 - [Bubble Sort](https://github.com/daosgava/data-structures-and-algorithms/blob/main/algorithms/bubbleSort.js)
 - [Selection Sort](https://github.com/daosgava/data-structures-and-algorithms/blob/main/algorithms/selectionSort.js)
-- [Has Duplicated Number](https://github.com/daosgava/data-structures-and-algorithms/blob/main/exercises/hasDuplicatedNumber.js)
 - [Insertion Sort](https://github.com/daosgava/data-structures-and-algorithms/blob/main/algorithms/insertionSort.js)
+
+## Exercises
 - [Palindrome checker](https://github.com/daosgava/data-structures-and-algorithms/blob/main/exercises/insertionSort.js)
+- [Has Duplicated Number](https://github.com/daosgava/data-structures-and-algorithms/blob/main/exercises/hasDuplicatedNumber.js)
 
 ## Commands
 Run project
