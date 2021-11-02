@@ -16,4 +16,6 @@ const twoNumbersProduct = (arr) => {
     return newArr;
 };
 
+// Time complexity O(n)
+
 module.exports = twoNumbersProduct;
