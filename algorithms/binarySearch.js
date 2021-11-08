@@ -51,7 +51,7 @@ const binarySearch = (arr, num) => {
     let lowerBound = 0;
     let upperBound = arr.length - 1;
 
-    while( lowerBound <= upperBound) {
+    while (lowerBound <= upperBound) {
         const midPoint = Math.floor((lowerBound + upperBound) / 2);
         const midPointValue = arr[midPoint];
 
@@ -67,6 +67,6 @@ const binarySearch = (arr, num) => {
     return null;
 };
 
-// TIME COMPLEXITY O(n)
+// TIME COMPLEXITY O(Log N)
 
 module.exports = binarySearch;

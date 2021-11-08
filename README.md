@@ -12,6 +12,7 @@ The 💡 is to go through different algorithms and provide their complexity in t
 - [Palindrome checker](https://github.com/daosgava/data-structures-and-algorithms/blob/main/exercises/palindromeChecker.js)
 - [Duplicated Number](https://github.com/daosgava/data-structures-and-algorithms/blob/main/exercises/hasDuplicatedNumber.js)
 - [Two Numbers Product](https://github.com/daosgava/data-structures-and-algorithms/blob/main/exercises/twoNumbersProduct.js)
+- [Merge Two arrays](https://github.com/daosgava/data-structures-and-algorithms/blob/main/exercises/mergeTwoArrays.js)
 
 ## Commands
 Run project
