@@ -72,26 +72,25 @@
 */
 
 const insertionSort = (arr) => {
-    let tempHolder = null;
-    let leftPos = null;
-    for(let i = 1; i < arr.length; i++){
-        tempHolder = arr[i];
-        leftPos = i - 1;
+	let tempHolder = null;
+	let leftPos = null;
+	for (let i = 1; i < arr.length; i++) {
+		tempHolder = arr[i];
+		leftPos = i - 1;
 
-        while(leftPos >= 0) {
-            if(arr[leftPos] > tempHolder){
-                arr[leftPos + 1] = arr[leftPos];
-                --leftPos;
-            } else {
-                break;
-            }
-        }
-        
-        arr[leftPos + 1] = tempHolder;
-    }
+		while (leftPos >= 0) {
+			if (arr[leftPos] > tempHolder) {
+				arr[leftPos + 1] = arr[leftPos];
+				--leftPos;
+			} else {
+				break;
+			}
+		}
 
-    return arr;
+		arr[leftPos + 1] = tempHolder;
+	}
 
+	return arr;
 };
 
 // Time complexity O(n^2)

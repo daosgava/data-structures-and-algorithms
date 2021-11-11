@@ -51,23 +51,23 @@
 */
 
 const binarySearch = (arr, num) => {
-    let lowerBound = 0;
-    let upperBound = arr.length - 1;
+	let lowerBound = 0;
+	let upperBound = arr.length - 1;
 
-    while (lowerBound <= upperBound) {
-        const midPoint = Math.floor((lowerBound + upperBound) / 2);
-        const midPointValue = arr[midPoint];
+	while (lowerBound <= upperBound) {
+		const midPoint = Math.floor((lowerBound + upperBound) / 2);
+		const midPointValue = arr[midPoint];
 
-        if(midPointValue === num) {
-            return midPoint;
-        } else if(num < midPointValue) {
-            upperBound = midPoint - 1;
-        } else if(num > midPointValue) {
-            lowerBound = midPoint + 1;
-        }
-    }
+		if (midPointValue === num) {
+			return midPoint;
+		} else if (num < midPointValue) {
+			upperBound = midPoint - 1;
+		} else if (num > midPointValue) {
+			lowerBound = midPoint + 1;
+		}
+	}
 
-    return null;
+	return null;
 };
 
 // TIME COMPLEXITY O(LOG N)

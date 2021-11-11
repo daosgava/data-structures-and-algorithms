@@ -34,20 +34,19 @@
 */
 
 const isPalindrome = (str) => {
-    let leftIndex = 0;
-    let rightIndex = str.length - 1;
+	let leftIndex = 0;
+	let rightIndex = str.length - 1;
 
-    while(leftIndex < str.length / 2){
+	while (leftIndex < str.length / 2) {
+		if (str[leftIndex] !== str[rightIndex]) {
+			return false;
+		}
 
-        if(str[leftIndex] !== str[rightIndex]){
-            return false;
-        }
+		leftIndex++;
+		rightIndex--;
+	}
 
-        leftIndex++;
-        rightIndex--;
-    }
-
-    return true;
+	return true;
 };
 
 // Time complexity O(n)

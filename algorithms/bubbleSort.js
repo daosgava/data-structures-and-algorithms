@@ -35,25 +35,25 @@
 */
 
 const bubbleSort = (arr) => {
-    let unsortedIndex = arr.length - 1;
-    let sorted = false;
-    let temp1 = null;
-    let temp2 = null;
+	let unsortedIndex = arr.length - 1;
+	let sorted = false;
+	let temp1 = null;
+	let temp2 = null;
 
-    while(!sorted) {
-        sorted = true;
-        for(let i = 0; i < unsortedIndex; i++){
-            temp1 = arr[i];
-            temp2 = arr[i+1];
-            if(temp1 > temp2){
-                arr[i] = temp2;
-                arr[i+1] = temp1;
-                sorted = false;
-            }
-        }
-        unsortedIndex -= 1;
-    }
-    return arr;
+	while (!sorted) {
+		sorted = true;
+		for (let i = 0; i < unsortedIndex; i++) {
+			temp1 = arr[i];
+			temp2 = arr[i + 1];
+			if (temp1 > temp2) {
+				arr[i] = temp2;
+				arr[i + 1] = temp1;
+				sorted = false;
+			}
+		}
+		unsortedIndex -= 1;
+	}
+	return arr;
 };
 
 // TIME COMPLEXITY O(n^2)
