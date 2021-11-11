@@ -42,6 +42,6 @@ const largestConsecutiveProduct = (array, n) => {
     return largestProduct;
 };
 
-// Time complexity O(n^m)
+// Time complexity O(n*m)
 
 module.exports = largestConsecutiveProduct;
