@@ -14,20 +14,20 @@
 */
 
 const largestConsecutiveProduct = (array, n) => {
-	if (n > array.length - 1) {
+	if (n > array.length) {
 		console.log('Invalid consecutive number.');
 		return;
 	}
 
 	let i = 0;
 	let j = 0;
-	let largestProduct = 0;
 	let largestTemp = 0;
+	let largestProduct = 0;
 
-	while (i < array.length) {
+	while (i <= array.length - n) {
 		largestTemp = 0;
 		j = 0;
-		while (j < n && j + i < array.length) {
+		while (j < n) {
 			largestTemp = largestTemp
 				? largestTemp * array[i + j]
 				: array[i + j];
