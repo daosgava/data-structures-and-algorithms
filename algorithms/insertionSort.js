@@ -28,7 +28,6 @@
         3.2 If conditional is false, break the inner loop
         NOTE: The inner loop will sort all the numbers to the left of the current iteration number.
 
-
     4.  Before the outer loop finishes that run, assign tmpHolder to leftPos + 1.
     5.  Repeat until reaching the last number in the array.
     6.  Finally, Returns input array.
