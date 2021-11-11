@@ -1,14 +1,14 @@
 /*
     Find the needle in the haystack
 
-    The idea is that the needle and the haystack are strings.
-    This algorithm will find out if the needle is contained in the haystack.
+    The needle and the haystack are strings. This algorithm will find out if
+    the needle is in the haystack.
 
     e.g.
+
     haystack="abcdefg"
     needle="bcd"
-
-    findNeedle should return true
+    return true!
 
 */
 
@@ -34,5 +34,7 @@ const findNeedle = (needle, haystack) => {
 
     return false;
 };
+
+// Time complexity O(n * m)
 
 module.exports = findNeedle;

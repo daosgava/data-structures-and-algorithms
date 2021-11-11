@@ -8,6 +8,7 @@ const isPalindrome = require('./exercises/palindromeChecker');
 const twoNumbersProduct = require('./exercises/twoNumbersProduct');
 const mergeTwoArrays = require('./exercises/mergeTwoArrays');
 const findNeedle = require('./exercises/findNeedle');
+const largestConsecutiveProduct = require('./exercises/largestConsecutiveProduct');
 
 const arrForSelectionSort = [4,3,5,6,1,1,8,9,2];
 printPretty(selectionSort, arrForSelectionSort);
@@ -38,3 +39,7 @@ printPretty(mergeTwoArrays, arr1ForMergeTwoArrays, arr2ForMergeTwoArrays);
 const needle = 'ac';
 const haystack = 'fghabcpoi';
 printPretty(findNeedle, needle, haystack);
+
+const arrForLargestConsecutiveProduct = [8,2,9,7,7];
+const consecutiveNumbers = 3;
+printPretty(largestConsecutiveProduct, arrForLargestConsecutiveProduct, consecutiveNumbers);
