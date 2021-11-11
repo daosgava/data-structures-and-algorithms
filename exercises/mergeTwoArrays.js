@@ -36,6 +36,6 @@ const mergeTwoArrays = (arr1, arr2) => {
 	return newArr;
 };
 
-// Time complexity O(M*N)
+// Time complexity O(M+N)
 
 module.exports = mergeTwoArrays;
