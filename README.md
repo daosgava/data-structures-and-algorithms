@@ -14,7 +14,7 @@ The 💡 is to go through different algorithms and provide their complexity in t
 - [Two Numbers Product](https://github.com/daosgava/data-structures-and-algorithms/blob/main/exercises/twoNumbersProduct.js)
 - [Merge Two Arrays](https://github.com/daosgava/data-structures-and-algorithms/blob/main/exercises/mergeTwoArrays.js)
 - [Find Needle](https://github.com/daosgava/data-structures-and-algorithms/blob/main/exercises/findNeedle.js)
-- [Largest Consecutive Product](https://github.com/daosgava/data-structures-and-algorithms/blob/main/exercises/largestConsecutiveProductfindNeedle.js)
+- [Largest Consecutive Product](https://github.com/daosgava/data-structures-and-algorithms/blob/main/exercises/largestConsecutiveProduct.js)
 
 ## Commands
 Run project
