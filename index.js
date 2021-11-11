@@ -40,7 +40,7 @@ const needle = 'ac';
 const haystack = 'fghabcpoi';
 printPretty(findNeedle, needle, haystack);
 
-const arrForLargestConsecutiveProduct = [8, 2, 9, 7, 7];
+const arrForLargestConsecutiveProduct = [1,2,3,4,5,6,7];
 const consecutiveNumbers = 3;
 printPretty(
 	largestConsecutiveProduct,
