@@ -1,7 +1,7 @@
 /*
     Palindrome checker
     -   The idea is to compare the first half of the string with the second half
-    -   Letters from each side should match
+    -   Letters from each side need to be equal
 
     E.g
     Input string = 'racecar'

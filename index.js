@@ -7,6 +7,7 @@ const hasDuplicatedNumber = require('./exercises/hasDuplicatedNumber');
 const isPalindrome = require('./exercises/palindromeChecker');
 const twoNumbersProduct = require('./exercises/twoNumbersProduct');
 const mergeTwoArrays = require('./exercises/mergeTwoArrays');
+const findNeedle = require('./exercises/findNeedle');
 
 const arrForSelectionSort = [4,3,5,6,1,1,8,9,2];
 printPretty(selectionSort, arrForSelectionSort);
@@ -33,3 +34,7 @@ printPretty(twoNumbersProduct, arrForTwoNumbersProduct);
 const arr1ForMergeTwoArrays = [6,7,13];
 const arr2ForMergeTwoArrays = [5,7,23];
 printPretty(mergeTwoArrays, arr1ForMergeTwoArrays, arr2ForMergeTwoArrays);
+
+const needle = 'ac';
+const haystack = 'fghabcpoi';
+printPretty(findNeedle, needle, haystack);

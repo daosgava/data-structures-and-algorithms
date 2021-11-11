@@ -2,7 +2,7 @@
     Selection Sort
 
     This algorithm sorts an array in ascending order. The idea is to place the smallest number
-    at the beginning of the array, yet we'll be moving the lower bound to the right after each iteration.
+    at the beginning of the array, but we'll be moving the lower bound to the right after each iteration.
 
     Input array [2,4,2,7,1]
 
