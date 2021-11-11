@@ -1,45 +1,47 @@
 /*
-    Largest consecutive product
+	Largest consecutive product
 
-    This algoritms has a similar implementation compared to the find needle.
-    The Idea is to return the largest consecutive product having as input params an array
-    and the number of consecutive numbers.
+	This algoritms has a similar implementation compared to the find needle.
+	The Idea is to return the largest consecutive product having as input params an array
+	and the number of consecutive numbers.
 
-    e.g.
+	e.g.
 
-    input array = [1,2,3]
-    consecutive numbers = 2
+	input array = [1,2,3]
+	consecutive numbers = 2
 
-    return 6
+	return 6
 */
 
 const largestConsecutiveProduct = (array, n) => {
-    if(n > array.length - 1) {
-        console.log('Invalid consecutive number.');
-        return;
-    }
+	if (n > array.length - 1) {
+		console.log('Invalid consecutive number.');
+		return;
+	}
 
-    let i = 0;
-    let j = 0;
-    let largestProduct = 0;
-    let largestTemp = 0;
+	let i = 0;
+	let j = 0;
+	let largestProduct = 0;
+	let largestTemp = 0;
 
-    while (i < array.length) {        
-        largestTemp = 0;
-        j = 0;
-        while (j < n && j + i < array.length) {
-            largestTemp = largestTemp ? largestTemp * array[i + j] :  array[i + j];
-            j++
-        }
+	while (i < array.length) {
+		largestTemp = 0;
+		j = 0;
+		while (j < n && j + i < array.length) {
+			largestTemp = largestTemp
+				? largestTemp * array[i + j]
+				: array[i + j];
+			j++;
+		}
 
-        if (largestTemp > largestProduct) {
-            largestProduct = largestTemp;
-        }
-        
-        i++;
-    }
+		if (largestTemp > largestProduct) {
+			largestProduct = largestTemp;
+		}
 
-    return largestProduct;
+		i++;
+	}
+
+	return largestProduct;
 };
 
 // Time complexity O(n*m)

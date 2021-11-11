@@ -5,15 +5,15 @@
 */
 
 const twoNumbersProduct = (arr) => {
-    const newArr = [];
+	const newArr = [];
 
-    for(let i = 0; i < arr.length - 1; i++) {
-        for(let j = i + 1; j < arr.length; j++) {
-            newArr.push(arr[i] * arr[j]);
-        }
-    }
+	for (let i = 0; i < arr.length - 1; i++) {
+		for (let j = i + 1; j < arr.length; j++) {
+			newArr.push(arr[i] * arr[j]);
+		}
+	}
 
-    return newArr;
+	return newArr;
 };
 
 // Time complexity O(n)

@@ -28,18 +28,18 @@
 */
 
 const hasDuplicatedNumber = (arr) => {
-    const existingNumbers = [];
-    const exist = 'exists';
+	const existingNumbers = [];
+	const exist = 'exists';
 
-    for(let i = 0; i < arr.length -1; i++) {
-        if(existingNumbers[arr[i]]) {
-            return true;
-        } else {
-            existingNumbers[arr[i]] = exist;
-        }
-    }
+	for (let i = 0; i < arr.length - 1; i++) {
+		if (existingNumbers[arr[i]]) {
+			return true;
+		} else {
+			existingNumbers[arr[i]] = exist;
+		}
+	}
 
-    return false;
+	return false;
 };
 
 // TIME COMPLEXITY O(n)

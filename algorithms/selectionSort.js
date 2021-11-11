@@ -51,26 +51,26 @@
 */
 
 const selectionSort = (arr) => {
-    let indexOfLowestNum = null;
-    let temp = null;
+	let indexOfLowestNum = null;
+	let temp = null;
 
-    for (let i = 0; i < arr.length - 1; i++) {
-        indexOfLowestNum = i;
+	for (let i = 0; i < arr.length - 1; i++) {
+		indexOfLowestNum = i;
 
-        for (let j = i + 1; j < arr.length; j++) {
-            if (arr[indexOfLowestNum] > arr[j]) {
-                indexOfLowestNum = j;
-            }
-        }
+		for (let j = i + 1; j < arr.length; j++) {
+			if (arr[indexOfLowestNum] > arr[j]) {
+				indexOfLowestNum = j;
+			}
+		}
 
-        if (indexOfLowestNum !== i) {
-            temp = arr[i];
-            arr[i] = arr[indexOfLowestNum];
-            arr[indexOfLowestNum] = temp;
-        }
-    }
+		if (indexOfLowestNum !== i) {
+			temp = arr[i];
+			arr[i] = arr[indexOfLowestNum];
+			arr[indexOfLowestNum] = temp;
+		}
+	}
 
-    return arr;
+	return arr;
 };
 
 // TIME COMPLEXITY O(n^2)
