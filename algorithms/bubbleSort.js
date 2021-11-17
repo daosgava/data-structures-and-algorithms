@@ -1,5 +1,5 @@
 /*
-    Bubble Sort
+    Bubble Sort -> For sorting arrays
 
     This algorithm sorts an array in ascending order. The idea is to pass-through the input array until
     all the numbers are sorted, placing the biggest number at the end of our input array.

@@ -1,5 +1,5 @@
 /*
-    Insertion Sort
+    Insertion Sort -> For sorting arrays
 
     The idea is to iterate over the input array starting from index 1.
     In each iteration, we need to compare and sort all the numbers to

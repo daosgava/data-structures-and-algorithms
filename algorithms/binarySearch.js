@@ -1,5 +1,5 @@
 /*
-    Binary Search
+    Binary Search -> For ordered arrays
     
     This algorithm is meant be used for ordered arrays only. Its purpose is to search for a number
     by comparing it to the input array's mid-point. In each iteration, the array will be bounded 
