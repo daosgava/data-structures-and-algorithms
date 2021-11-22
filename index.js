@@ -9,6 +9,7 @@ const twoNumbersProduct = require('./exercises/twoNumbersProduct');
 const mergeTwoArrays = require('./exercises/mergeTwoArrays');
 const findNeedle = require('./exercises/findNeedle');
 const largestConsecutiveProduct = require('./exercises/largestConsecutiveProduct');
+const isSubset = require('./exercises/isSubset');
 
 const arrForSelectionSort = [4, 3, 5, 6, 1, 1, 8, 9, 2];
 printPretty(selectionSort, arrForSelectionSort);
@@ -47,3 +48,7 @@ printPretty(
 	arrForLargestConsecutiveProduct,
 	consecutiveNumbers
 );
+
+const arr1ForIsSubset = [6, 7, 13, 23];
+const arr2ForIsSubset = [6, 7, 23];
+printPretty(isSubset, arr1ForIsSubset, arr2ForIsSubset);
