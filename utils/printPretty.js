@@ -1,3 +1,7 @@
+/*
+    This utility is for printing a function, its parameters and its returned value
+*/
+
 const cleanParams = (params) => {
 	const stringParams = JSON.stringify(params);
 	const cleanParams = stringParams
@@ -12,12 +16,10 @@ const printPretty = (funct, ...parameters) => {
 	const cleanedRes = JSON.stringify(funct(...parameters));
 
 	console.log(`
-      ### ${funct.name} ###
-      function call: ${funct.name}(${cleanedParams});
-      result: ${cleanedRes}
+        ### ${funct.name} ###
+        function call: ${funct.name}(${cleanedParams});
+        result: ${cleanedRes}
     `);
 };
 
-module.exports = {
-	printPretty,
-};
+module.exports = printPretty;

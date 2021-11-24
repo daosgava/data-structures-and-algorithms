@@ -1,15 +1,21 @@
+// This file is my playground!
 const { printPretty } = require('./utils');
-const selectionSort = require('./algorithms/selectionSort');
-const binarySearch = require('./algorithms/binarySearch');
-const bubbleSort = require('./algorithms/bubbleSort');
-const insertionSort = require('./algorithms/insertionSort');
-const hasDuplicatedNumber = require('./exercises/hasDuplicatedNumber');
-const isPalindrome = require('./exercises/palindromeChecker');
-const twoNumbersProduct = require('./exercises/twoNumbersProduct');
-const mergeTwoArrays = require('./exercises/mergeTwoArrays');
-const findNeedle = require('./exercises/findNeedle');
-const largestConsecutiveProduct = require('./exercises/largestConsecutiveProduct');
-const isSubset = require('./exercises/isSubset');
+const {
+	selectionSort,
+	binarySearch,
+	bubbleSort,
+	insertionSort,
+} = require('./algorithms');
+const {
+	hasDuplicatedNumber,
+	isPalindrome,
+	twoNumbersProduct,
+	mergeTwoArrays,
+	findNeedle,
+	largestConsecutiveProduct,
+	isSubset,
+} = require('./exercises');
+const { HashTable } = require('./dataStructures');
 
 const arrForSelectionSort = [4, 3, 5, 6, 1, 1, 8, 9, 2];
 printPretty(selectionSort, arrForSelectionSort);
@@ -41,7 +47,7 @@ const needle = 'ac';
 const haystack = 'fghabcpoi';
 printPretty(findNeedle, needle, haystack);
 
-const arrForLargestConsecutiveProduct = [1,2,3,4,5,6,7];
+const arrForLargestConsecutiveProduct = [1, 2, 3, 4, 5, 6, 7];
 const consecutiveNumbers = 3;
 printPretty(
 	largestConsecutiveProduct,
@@ -52,3 +58,23 @@ printPretty(
 const arr1ForIsSubset = [6, 7, 13, 23];
 const arr2ForIsSubset = [6, 7, 23];
 printPretty(isSubset, arr1ForIsSubset, arr2ForIsSubset);
+
+const myHashTable = new HashTable();
+// Adding elements
+myHashTable.set('bad', 5);
+myHashTable.set('bad', 4);
+// Dealing with collisions
+myHashTable.set('dab', 6);
+myHashTable.set('dad', 7);
+myHashTable.set(5, 55555);
+// Removing
+myHashTable.remove('dad');
+console.log(`
+        ### HashTable ###
+        bad: ${myHashTable.get('bad')}
+        dab: ${myHashTable.get('dab')}
+        dad: ${myHashTable.get('dad')}
+        5: ${myHashTable.get(5)}
+        unexisting prop: ${myHashTable.get('unexisting')}
+        HashTable size: ${myHashTable.size}
+`);

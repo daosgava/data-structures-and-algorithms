@@ -19,6 +19,9 @@ The 💡 is to go through different algorithms and provide their complexity in t
 -   [Largest Consecutive Product](https://github.com/daosgava/data-structures-and-algorithms/blob/main/exercises/largestConsecutiveProduct.js)
 -   [Is It Subset](https://github.com/daosgava/data-structures-and-algorithms/blob/main/exercises/isSubset.js)
 
+## Data Structures
+-   [Hash Table](https://github.com/daosgava/data-structures-and-algorithms/blob/main/dataStructures/HashTable.js)
+
 ## Commands
 
 Run project
