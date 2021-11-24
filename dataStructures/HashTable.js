@@ -90,7 +90,7 @@ const HashTable = function () {
 		if (Array.isArray(table[index])) {
 			const subArray = table[index];
 			for (let i = 0; i < subArray.length; i++) {
-				// If the key exists, the value is returned
+				// If the key exists, it's removed
 				if (subArray[i][0] === key) {
 					subArray.splice(i, 1);
 					this.size--;
