@@ -2,7 +2,7 @@
     Hash Table Implementation
 
     It's implemented on top of arrays and it stores each key/value pair as [key, value].
-    Each key is converted to a number which represents an index of a cell where the actual
+    Each key is converted to a number which represents an index where the actual
     key/value pair will be stored.
 
     // Abstraction
