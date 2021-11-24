@@ -104,6 +104,6 @@ const HashTable = function () {
 };
 
 // TIME COMPLEXITY Searching/get is O(1) on an average scenario.
-// Worst case-scenario all the key/value pairs end up in the same cell -> TIME COMPLEXITY O(ngi)
+// Worst case-scenario where all the key/value pairs are in the same cell is O(n)
 
 module.exports = HashTable;
