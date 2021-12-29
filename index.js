@@ -14,6 +14,7 @@ const {
 	findNeedle,
 	largestConsecutiveProduct,
 	isSubset,
+	getIntersection,
 } = require('./exercises');
 const { HashTable } = require('./dataStructures');
 
@@ -78,3 +79,7 @@ console.log(`
         unexisting prop: ${myHashTable.get('unexisting')}
         HashTable size: ${myHashTable.size}
 `);
+
+const arr1ForGetIntersection = [1,2,3,4,9];
+const arr2ForGetIntersection = [4,9];
+printPretty(getIntersection, arr1ForGetIntersection, arr2ForGetIntersection);
