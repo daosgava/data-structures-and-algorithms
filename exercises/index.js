@@ -5,6 +5,7 @@ const mergeTwoArrays = require('./mergeTwoArrays');
 const findNeedle = require('./findNeedle');
 const largestConsecutiveProduct = require('./largestConsecutiveProduct');
 const isSubset = require('./isSubset');
+const getIntersection = require('./getIntersection');
 
 module.exports = {
 	hasDuplicatedNumber,
@@ -14,4 +15,5 @@ module.exports = {
 	findNeedle,
 	largestConsecutiveProduct,
 	isSubset,
+	getIntersection,
 };

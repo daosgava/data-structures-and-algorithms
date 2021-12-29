@@ -18,6 +18,7 @@ The 💡 is to go through different algorithms and provide their complexity in t
 -   [Find Needle](https://github.com/daosgava/data-structures-and-algorithms/blob/main/exercises/findNeedle.js)
 -   [Largest Consecutive Product](https://github.com/daosgava/data-structures-and-algorithms/blob/main/exercises/largestConsecutiveProduct.js)
 -   [Is It Subset](https://github.com/daosgava/data-structures-and-algorithms/blob/main/exercises/isSubset.js)
+-   [Get Intersection](https://github.com/daosgava/data-structures-and-algorithms/blob/main/exercises/getIntersection.js)
 
 ## Data Structures
 -   [Hash Table](https://github.com/daosgava/data-structures-and-algorithms/blob/main/dataStructures/HashTable.js)
