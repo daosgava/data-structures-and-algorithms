@@ -60,7 +60,7 @@ const arr1ForIsSubset = [6, 7, 13, 23];
 const arr2ForIsSubset = [6, 7, 23];
 printPretty(isSubset, arr1ForIsSubset, arr2ForIsSubset);
 
-const myHashTable = new HashTable();
+const myHashTable = HashTable();
 // Adding elements
 myHashTable.set('bad', 5);
 myHashTable.set('bad', 4);

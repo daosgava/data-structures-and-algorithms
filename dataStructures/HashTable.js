@@ -24,10 +24,12 @@
     ]
 */
 
-const HashTable = function () {
+const HashTable = () => {
 	const tableSize = 127;
 	const table = new Array(tableSize);
-	this.size = 0;
+	const props = {
+		size: 0,
+	};
 
 	// This function converts an input string into a number between 0 and the tableSize
 	const hash = (key) => {
@@ -41,7 +43,7 @@ const HashTable = function () {
 		return num % tableSize;
 	};
 
-	this.set = function (key, value) {
+	props.set = (key, value) => {
 		// It converts the key to a number
 		const index = hash(key);
 
@@ -66,11 +68,12 @@ const HashTable = function () {
 		}
 
 		// Keep track of the size
-		this.size++;
+		props.size++;
 	};
 
-	this.get = function (key) {
+	props.get = (key) => {
 		const index = hash(key);
+
 		if (Array.isArray(table[index])) {
 			const subArray = table[index];
 			for (let i = 0; i < subArray.length; i++) {
@@ -84,16 +87,15 @@ const HashTable = function () {
 		return undefined;
 	};
 
-	this.remove = function (key) {
+	props.remove = (key) => {
 		const index = hash(key);
-
 		if (Array.isArray(table[index])) {
 			const subArray = table[index];
 			for (let i = 0; i < subArray.length; i++) {
 				// If the key exists, it's removed
 				if (subArray[i][0] === key) {
 					subArray.splice(i, 1);
-					this.size--;
+					props.size--;
 					return true;
 				}
 			}
@@ -101,6 +103,8 @@ const HashTable = function () {
 			return false;
 		}
 	};
+
+	return props;
 };
 
 // TIME COMPLEXITY Searching/get is O(1) on an average scenario.
