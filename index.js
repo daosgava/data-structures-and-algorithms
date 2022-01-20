@@ -81,8 +81,8 @@ console.log(`
         HashTable size: ${myHashTable.size}
 `);
 
-const arr1ForGetIntersection = [1,2,3,4,9];
-const arr2ForGetIntersection = [4,9];
+const arr1ForGetIntersection = [1, 2, 3, 4, 9];
+const arr2ForGetIntersection = [4, 9];
 printPretty(getIntersection, arr1ForGetIntersection, arr2ForGetIntersection);
 
 const bills = [100, 50, 20];

@@ -12,13 +12,13 @@
 */
 
 const withdraw = (amount, bills) =>
-    bills.map((bill, index) => {
+	bills.map((bill, index) => {
 		const numOfBill = Math.floor(amount / bill);
 		const currentRemainder = amount % bill;
 		const nextRemainder = currentRemainder % bills[index + 1];
 		const isMiddleBill = index > 0 && index < bills.length - 1;
 		// If this bill is in the middle and the next bill still has a remainder, we have to skip it
-        // and avoid returning this denomination so we can return an optimal number of bills
+		// and avoid returning this denomination so we can return an optimal number of bills
 		const skip = isMiddleBill && nextRemainder;
 		// Let's keep the amount and return 0 bills
 		amount = skip ? amount : currentRemainder;
