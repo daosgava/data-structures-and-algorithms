@@ -1,7 +1,7 @@
 /*
-    The idea is to return the optimal number bill for each denomination
-
-    For this exercise there are 3 different bill
+    The idea is to return the optimal number of bill for each denomination
+    
+    -> For this exercise there are 3 different bill
     
     e.g
     bills = [50, 20, 5] 
