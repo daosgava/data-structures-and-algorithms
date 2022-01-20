@@ -6,6 +6,7 @@ const findNeedle = require('./findNeedle');
 const largestConsecutiveProduct = require('./largestConsecutiveProduct');
 const isSubset = require('./isSubset');
 const getIntersection = require('./getIntersection');
+const withdraw = require('./withdraw');
 
 module.exports = {
 	hasDuplicatedNumber,
@@ -16,4 +17,5 @@ module.exports = {
 	largestConsecutiveProduct,
 	isSubset,
 	getIntersection,
+	withdraw,
 };

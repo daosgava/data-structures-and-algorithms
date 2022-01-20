@@ -15,6 +15,7 @@ const {
 	largestConsecutiveProduct,
 	isSubset,
 	getIntersection,
+	withdraw,
 } = require('./exercises');
 const { HashTable } = require('./dataStructures');
 
@@ -83,3 +84,9 @@ console.log(`
 const arr1ForGetIntersection = [1,2,3,4,9];
 const arr2ForGetIntersection = [4,9];
 printPretty(getIntersection, arr1ForGetIntersection, arr2ForGetIntersection);
+
+const bills = [100, 50, 20];
+
+printPretty(withdraw, 260, bills);
+printPretty(withdraw, 190, bills);
+printPretty(withdraw, 130, bills);
