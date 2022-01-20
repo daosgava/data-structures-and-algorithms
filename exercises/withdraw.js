@@ -25,4 +25,6 @@ const withdraw = (amount, bills) =>
 		return skip ? 0 : numOfBill;
 	});
 
+// Time/Space complexity O(1)
+
 module.exports = withdraw;
