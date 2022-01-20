@@ -1,5 +1,5 @@
 /*
-    The idea is to return the optimal number of bill for each denomination
+    The idea is to return the optimal number of bills for each denomination
     
     -> For this exercise there are 3 different bill
     
