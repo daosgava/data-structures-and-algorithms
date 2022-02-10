@@ -23,6 +23,7 @@ The 💡 is to go through different algorithms and provide their complexity in t
 
 ## Data Structures
 -   [Hash Table](https://github.com/daosgava/data-structures-and-algorithms/blob/main/dataStructures/HashTable.js)
+-   [Stack](https://github.com/daosgava/data-structures-and-algorithms/blob/main/dataStructures/Stack.js)
 
 ## Commands
 

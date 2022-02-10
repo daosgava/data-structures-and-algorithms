@@ -17,7 +17,7 @@ const {
 	getIntersection,
 	withdraw,
 } = require('./exercises');
-const { HashTable } = require('./dataStructures');
+const { HashTable, Stack } = require('./dataStructures');
 
 const arrForSelectionSort = [4, 3, 5, 6, 1, 1, 8, 9, 2];
 printPretty(selectionSort, arrForSelectionSort);
@@ -90,3 +90,16 @@ const bills = [100, 50, 20];
 printPretty(withdraw, 260, bills);
 printPretty(withdraw, 190, bills);
 printPretty(withdraw, 130, bills);
+
+const myStack = Stack();
+console.log(`
+	### Stack ###
+	Push ${myStack.push(6) && '6'}
+	Top item: ${myStack.read()}
+	Push ${myStack.push(3) && '3'}
+	Top item: ${myStack.read()}
+	Push ${myStack.push(8) && '8'}
+	Top item: ${myStack.read()}
+	Pop ${myStack.pop()}
+	Top item: ${myStack.read()}
+`);
