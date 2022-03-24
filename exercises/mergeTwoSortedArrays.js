@@ -9,7 +9,7 @@
 
 	Solutions with two pointers
 	By comparing the numbers from the two arrays starting from their last index all the way to index 0,
-	I can identify which number is bigger and place it in higher index.
+	I can identify which number is bigger and place it to a higher index.
 
 	I am using a pointer for each array and everytime a number is evaluated and inserted into nums1
 	I move its corresponding pointer to the left.
