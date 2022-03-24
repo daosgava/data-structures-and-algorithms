@@ -50,7 +50,7 @@ const mergeSortedArrays = (nums1, m, nums2, n) => {
 		index--;
 	}
 
-	return nums1;
+	return nums1; // I know this is not necessary but the printPretty function needs it.
 };
 
 // Time complexity O(n + m)
