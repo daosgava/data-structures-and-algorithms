@@ -1,18 +1,19 @@
 /*
-	m: represents the num1s length
-	n: represents the num2s length 
 
     	Input: nums1 = [1,2,3,0,0,0], m = 3, nums2 = [2,5,6], n = 3
 	Output: [1,2,2,3,5,6]
 
-	Note: The idea for this exercise is to overwrite nums1
+	m: represents the num1s length
+	n: represents the num2s length 
+
+	Note: The idea for this specific exercise is to overwrite nums1
 
 	Solutions with two pointers
 	By comparing the numbers from the two arrays starting from their last index all the way to index 0,
 	I can identify which number is bigger and place it to a higher index.
 
 	I am using a pointer for each array and everytime a number is evaluated and inserted into nums1
-	I move its corresponding pointer to the left.
+	its corresponding pointer is moved to the left.
 
 	E.g.
 	nums1 = [1,2,3,0,0,0], its last index is m - 1
