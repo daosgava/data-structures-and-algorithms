@@ -19,7 +19,7 @@ const duplicatedZeros = (arr) => {
 		}
 	}
 
-    return arr; // It's needed for the printPretty function
+    return arr; // It's needed for the printPretty function to work
 };
 
 // TIME COMPLEXITY O(n^2)
