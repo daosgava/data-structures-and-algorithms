@@ -8,6 +8,7 @@ const largestConsecutiveProduct = require('./largestConsecutiveProduct');
 const isSubset = require('./isSubset');
 const getIntersection = require('./getIntersection');
 const withdraw = require('./withdraw');
+const duplicatedZeros = require('./duplicatedZeros');
 
 module.exports = {
 	hasDuplicatedNumber,
@@ -20,4 +21,5 @@ module.exports = {
 	isSubset,
 	getIntersection,
 	withdraw,
+	duplicatedZeros,
 };
