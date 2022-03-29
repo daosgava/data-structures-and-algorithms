@@ -17,6 +17,7 @@ const {
 	isSubset,
 	getIntersection,
 	withdraw,
+	duplicatedZeros,
 } = require('./exercises');
 const { HashTable, Stack } = require('./dataStructures');
 
@@ -110,3 +111,7 @@ const m = 3,
 	nums2 = [2, 5, 6],
 	n = 3;
 printPretty(mergeTwoSortedArrays, nums1, m, nums2, n);
+
+let arrForDuplicatedZeros = [1, 2, 3, 0, 4, 5, 0, 2];
+printPretty(duplicatedZeros, arrForDuplicatedZeros);
+
