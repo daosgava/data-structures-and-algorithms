@@ -5,7 +5,7 @@
     output = [1, 2, 3, 0, 0, 4, 5, 0]
 
     This function is mutating its input and there's no need to use
-    the return statement.
+    the return statement(in-place algorithm).
 
     No worries ;) This is an exercise we are not developing software...
 */
