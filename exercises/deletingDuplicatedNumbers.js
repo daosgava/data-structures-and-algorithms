@@ -4,7 +4,7 @@
     of the array length. Modifying the input array in-place.
 
     Conditions:
-        - Acs sorted array
+        - Asc sorted array
         - Not necessarily starts a 0
 
     e.g.
