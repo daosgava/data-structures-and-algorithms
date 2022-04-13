@@ -9,6 +9,7 @@ const isSubset = require('./isSubset');
 const getIntersection = require('./getIntersection');
 const withdraw = require('./withdraw');
 const duplicatedZeros = require('./duplicatedZeros');
+const deletingDuplicatedNumbers = require('./deletingDuplicatedNumbers');
 
 module.exports = {
 	hasDuplicatedNumber,
@@ -22,4 +23,5 @@ module.exports = {
 	getIntersection,
 	withdraw,
 	duplicatedZeros,
+	deletingDuplicatedNumbers,
 };

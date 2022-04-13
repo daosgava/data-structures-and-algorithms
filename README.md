@@ -22,6 +22,7 @@ The 💡 is to go through different algorithms and provide their complexity in t
 -   [Get Intersection](https://github.com/daosgava/data-structures-and-algorithms/blob/main/exercises/getIntersection.js)
 -   [ATM Withdraw](https://github.com/daosgava/data-structures-and-algorithms/blob/main/exercises/withdraw.js)
 -   [Duplicated Zeros](https://github.com/daosgava/data-structures-and-algorithms/blob/main/exercises/duplicatedZeros.js)
+-   [Deleting Duplicated Nums](https://github.com/daosgava/data-structures-and-algorithms/blob/main/exercises/deletingDuplicatedNumbers.js)
 
 ## Data Structures
 -   [Hash Table](https://github.com/daosgava/data-structures-and-algorithms/blob/main/dataStructures/HashTable.js)
