@@ -18,6 +18,7 @@ const {
 	getIntersection,
 	withdraw,
 	duplicatedZeros,
+	deletingDuplicatedNumbers,
 } = require('./exercises');
 const { HashTable, Stack } = require('./dataStructures');
 
@@ -115,3 +116,6 @@ printPretty(mergeTwoSortedArrays, nums1, m, nums2, n);
 let arrForDuplicatedZeros = [1, 2, 3, 0, 4, 5, 0, 2];
 printPretty(duplicatedZeros, arrForDuplicatedZeros);
 
+let arrForDeletingDuplicatedNumbers = [0,0,1,1,1,2,2,3,3,4];
+printPretty(deletingDuplicatedNumbers, arrForDeletingDuplicatedNumbers);
+console.log('Mutate Array', arrForDeletingDuplicatedNumbers);
