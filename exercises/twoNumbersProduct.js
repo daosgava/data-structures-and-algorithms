@@ -18,4 +18,4 @@ const twoNumbersProduct = (arr) => {
 
 // Time complexity O(n^2)
 
-module.exports = twoNumbersProduct;
+export default twoNumbersProduct;

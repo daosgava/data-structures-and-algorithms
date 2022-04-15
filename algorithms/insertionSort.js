@@ -95,4 +95,4 @@ const insertionSort = (arr) => {
 
 // Time complexity O(n^2)
 
-module.exports = insertionSort;
+export default insertionSort;

@@ -22,4 +22,4 @@ const printPretty = (funct, ...parameters) => {
     `);
 };
 
-module.exports = printPretty;
+export default printPretty;

@@ -1,17 +1,17 @@
-const hasDuplicatedNumber = require('./hasDuplicatedNumber');
-const isPalindrome = require('./palindromeChecker');
-const twoNumbersProduct = require('./twoNumbersProduct');
-const mergeTwoArrays = require('./mergeTwoArrays');
-const mergeTwoSortedArrays = require('./mergeTwoSortedArrays');
-const findNeedle = require('./findNeedle');
-const largestConsecutiveProduct = require('./largestConsecutiveProduct');
-const isSubset = require('./isSubset');
-const getIntersection = require('./getIntersection');
-const withdraw = require('./withdraw');
-const duplicatedZeros = require('./duplicatedZeros');
-const deletingDuplicatedNumbers = require('./deletingDuplicatedNumbers');
+import hasDuplicatedNumber from './hasDuplicatedNumber.js';
+import isPalindrome from './palindromeChecker.js';
+import twoNumbersProduct from './twoNumbersProduct.js';
+import mergeTwoArrays from './mergeTwoArrays.js';
+import mergeTwoSortedArrays from './mergeTwoSortedArrays.js';
+import findNeedle from './findNeedle.js';
+import largestConsecutiveProduct from './largestConsecutiveProduct.js';
+import isSubset from './isSubset.js';
+import getIntersection from './getIntersection.js';
+import withdraw from './withdraw.js';
+import duplicatedZeros from './duplicatedZeros.js';
+import deletingDuplicatedNumbers from './deletingDuplicatedNumbers.js';
 
-module.exports = {
+export {
 	hasDuplicatedNumber,
 	isPalindrome,
 	twoNumbersProduct,

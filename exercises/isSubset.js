@@ -33,4 +33,4 @@ const isSubset = (arr1, arr2) => {
 
 // Time complexity O(n)
 
-module.exports = isSubset;
+export default isSubset;

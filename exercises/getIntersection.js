@@ -26,4 +26,4 @@ const getIntersection = (arr1, arr2) => {
 
 // O(n * m) -> O(n)
 
-module.exports = getIntersection;
+export default getIntersection;
