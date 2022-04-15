@@ -72,4 +72,4 @@ const binarySearch = (arr, num) => {
 
 // TIME COMPLEXITY O(LOG N)
 
-module.exports = binarySearch;
+export default binarySearch;

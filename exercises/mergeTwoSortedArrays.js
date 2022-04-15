@@ -56,4 +56,4 @@ const mergeSortedArrays = (nums1, m, nums2, n) => {
 
 // Time complexity O(n + m)
 
-module.exports = mergeSortedArrays;
+export default mergeSortedArrays;

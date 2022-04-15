@@ -1,7 +1,7 @@
-const HashTable = require('./HashTable');
-const Stack = require('./Stack');
+import HashTable from './HashTable.js';
+import Stack from './Stack.js';
 
-module.exports = {
+export {
     HashTable,
     Stack,
 };

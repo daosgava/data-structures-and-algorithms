@@ -1,9 +1,9 @@
-const selectionSort = require('./selectionSort');
-const binarySearch = require('./binarySearch');
-const bubbleSort = require('./bubbleSort');
-const insertionSort = require('./insertionSort');
+import selectionSort from './selectionSort.js';
+import binarySearch from './binarySearch.js';
+import bubbleSort from './bubbleSort.js';
+import insertionSort from './insertionSort.js';
 
-module.exports = {
+export {
 	selectionSort,
 	binarySearch,
 	bubbleSort,

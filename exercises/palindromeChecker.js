@@ -51,4 +51,4 @@ const isPalindrome = (str) => {
 
 // Time complexity O(n)
 
-module.exports = isPalindrome;
+export default isPalindrome;

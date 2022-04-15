@@ -44,4 +44,4 @@ const hasDuplicatedNumber = (arr) => {
 
 // TIME COMPLEXITY O(n)
 
-module.exports = hasDuplicatedNumber;
+export default hasDuplicatedNumber;

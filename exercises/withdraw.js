@@ -27,4 +27,4 @@ const withdraw = (amount, bills) =>
 
 // Time/Space complexity O(1)
 
-module.exports = withdraw;
+export default withdraw;

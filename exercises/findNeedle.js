@@ -40,4 +40,4 @@ const findNeedle = (needle, haystack) => {
 
 // Time complexity O(n * m)
 
-module.exports = findNeedle;
+export default findNeedle;

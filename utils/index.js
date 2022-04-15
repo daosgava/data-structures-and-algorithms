@@ -1,5 +1,5 @@
-const printPretty = require('./printPretty');
+import printPretty from './printPretty.js';
 
-module.exports = {
+export {
 	printPretty,
 };

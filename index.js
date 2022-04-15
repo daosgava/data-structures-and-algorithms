@@ -1,12 +1,11 @@
-// This file is my playground!
-const { printPretty } = require('./utils');
-const {
+import { printPretty } from './utils/index.js';
+import {
 	selectionSort,
 	binarySearch,
 	bubbleSort,
 	insertionSort,
-} = require('./algorithms');
-const {
+} from './algorithms/index.js';
+import {
 	hasDuplicatedNumber,
 	isPalindrome,
 	twoNumbersProduct,
@@ -19,8 +18,12 @@ const {
 	withdraw,
 	duplicatedZeros,
 	deletingDuplicatedNumbers,
-} = require('./exercises');
-const { HashTable, Stack } = require('./dataStructures');
+} from './exercises/index.js';
+import { HashTable, Stack } from './dataStructures/index.js';
+
+console.log(`
+    	*** ಠωಠ Playground ***
+`);
 
 const arrForSelectionSort = [4, 3, 5, 6, 1, 1, 8, 9, 2];
 printPretty(selectionSort, arrForSelectionSort);
@@ -117,5 +120,9 @@ let arrForDuplicatedZeros = [1, 2, 3, 0, 4, 5, 0, 2];
 printPretty(duplicatedZeros, arrForDuplicatedZeros);
 
 let arrForDeletingDuplicatedNumbers = [0,0,1,1,1,2,2,3,3,4];
-printPretty(deletingDuplicatedNumbers, arrForDeletingDuplicatedNumbers);
-console.log('Mutate Array', arrForDeletingDuplicatedNumbers);
+console.log(`
+	### Deleting Duplicated Numbers ###
+	input arr: ${arrForDeletingDuplicatedNumbers}
+	arr length: ${deletingDuplicatedNumbers(arrForDeletingDuplicatedNumbers)}
+	mutated arr: ${arrForDeletingDuplicatedNumbers}
+`);

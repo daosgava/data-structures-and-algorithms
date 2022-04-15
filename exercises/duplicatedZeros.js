@@ -24,4 +24,4 @@ const duplicatedZeros = (arr) => {
 
 // TIME COMPLEXITY O(n^2)
 
-module.exports = duplicatedZeros;
+export default duplicatedZeros;

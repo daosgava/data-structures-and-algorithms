@@ -110,4 +110,4 @@ const HashTable = () => {
 // TIME COMPLEXITY Searching/get is O(1) on an average scenario.
 // Worst case-scenario where all the key/value pairs are in the same cell is O(n)
 
-module.exports = HashTable;
+export default HashTable;

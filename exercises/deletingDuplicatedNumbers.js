@@ -34,4 +34,4 @@ const removeDuplicates = (nums) => {
 };
 
 // Time complexity O(n)
-module.exports = removeDuplicates;
+export default removeDuplicates;

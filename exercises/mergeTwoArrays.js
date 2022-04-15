@@ -38,4 +38,4 @@ const mergeTwoArrays = (arr1, arr2) => {
 
 // Time complexity O(M+N)
 
-module.exports = mergeTwoArrays;
+export default mergeTwoArrays;
