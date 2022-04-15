@@ -1,10 +1,10 @@
-import { printPretty } from './utils/index.js';
+import { printPretty } from './src/utils/index.js';
 import {
 	selectionSort,
 	binarySearch,
 	bubbleSort,
 	insertionSort,
-} from './algorithms/index.js';
+} from './src/algorithms/index.js';
 import {
 	hasDuplicatedNumber,
 	isPalindrome,
@@ -18,8 +18,8 @@ import {
 	withdraw,
 	duplicatedZeros,
 	deletingDuplicatedNumbers,
-} from './exercises/index.js';
-import { HashTable, Stack } from './dataStructures/index.js';
+} from './src/exercises/index.js';
+import { HashTable, Stack } from './src/dataStructures/index.js';
 
 console.log(`
     	*** ಠωಠ Playground ***
