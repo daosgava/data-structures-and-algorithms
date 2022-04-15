@@ -8,7 +8,7 @@ import largestConsecutiveProduct from './largestConsecutiveProduct.js';
 import isSubset from './isSubset.js';
 import getIntersection from './getIntersection.js';
 import withdraw from './withdraw.js';
-import duplicatedZeros from './duplicatedZeros.js';
+import duplicateZeros from './duplicateZeros.js';
 import deletingDuplicatedNumbers from './deletingDuplicatedNumbers.js';
 
 export {
@@ -22,6 +22,6 @@ export {
 	isSubset,
 	getIntersection,
 	withdraw,
-	duplicatedZeros,
+	duplicateZeros,
 	deletingDuplicatedNumbers,
 };

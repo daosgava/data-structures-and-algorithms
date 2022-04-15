@@ -16,7 +16,7 @@ import {
 	isSubset,
 	getIntersection,
 	withdraw,
-	duplicatedZeros,
+	duplicateZeros,
 	deletingDuplicatedNumbers,
 } from './src/exercises/index.js';
 import { HashTable, Stack } from './src/dataStructures/index.js';
@@ -116,8 +116,8 @@ const m = 3,
 	n = 3;
 printPretty(mergeTwoSortedArrays, nums1, m, nums2, n);
 
-let arrForDuplicatedZeros = [1, 2, 3, 0, 4, 5, 0, 2];
-printPretty(duplicatedZeros, arrForDuplicatedZeros);
+let arrForDuplicateZeros = [1, 2, 3, 0, 4, 5, 0, 2, 9];
+printPretty(duplicateZeros, arrForDuplicateZeros);
 
 let arrForDeletingDuplicatedNumbers = [0, 0, 1, 1, 1, 2, 2, 3, 3, 4];
 console.log(`

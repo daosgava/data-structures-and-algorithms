@@ -9,7 +9,7 @@
 
 */
 
-const duplicatedZeros = (arr) => {
+const duplicateZeros = (arr) => {
 	for (let i = arr.length - 1; i >= 0; i--) {
 		if (arr[i] === 0) {
 			for (let j = arr.length - 1; j > i; j--) {
@@ -23,4 +23,4 @@ const duplicatedZeros = (arr) => {
 
 // TIME COMPLEXITY O(n^2)
 
-export default duplicatedZeros;
+export default duplicateZeros;
