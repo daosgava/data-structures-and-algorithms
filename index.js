@@ -126,3 +126,5 @@ console.log(`
 	arr length: ${deletingDuplicatedNumbers(arrForDeletingDuplicatedNumbers)}
 	mutated arr: ${arrForDeletingDuplicatedNumbers}
 `);
+
+const a = 'test';
