@@ -4,30 +4,30 @@ The 💡 is to go through different algorithms and provide their complexity in t
 
 ## Algorithms
 
--   [Binary Search](https://github.com/daosgava/data-structures-and-algorithms/blob/main/algorithms/binarySearch.js)
--   [Bubble Sort](https://github.com/daosgava/data-structures-and-algorithms/blob/main/algorithms/bubbleSort.js)
--   [Selection Sort](https://github.com/daosgava/data-structures-and-algorithms/blob/main/algorithms/selectionSort.js)
--   [Insertion Sort](https://github.com/daosgava/data-structures-and-algorithms/blob/main/algorithms/insertionSort.js)
+-   [Binary Search](https://github.com/daosgava/data-structures-and-algorithms/blob/main/src/algorithms/binarySearch.js)
+-   [Bubble Sort](https://github.com/daosgava/data-structures-and-algorithms/blob/main/src/algorithms/bubbleSort.js)
+-   [Selection Sort](https://github.com/daosgava/data-structures-and-algorithms/blob/main/src/algorithms/selectionSort.js)
+-   [Insertion Sort](https://github.com/daosgava/data-structures-and-algorithms/blob/main/src/algorithms/insertionSort.js)
 
 ## Exercises
 
--   [Palindrome checker](https://github.com/daosgava/data-structures-and-algorithms/blob/main/exercises/palindromeChecker.js)
--   [Duplicated Number](https://github.com/daosgava/data-structures-and-algorithms/blob/main/exercises/hasDuplicatedNumber.js)
--   [Two Numbers Product](https://github.com/daosgava/data-structures-and-algorithms/blob/main/exercises/twoNumbersProduct.js)
--   [Merge Two Arrays](https://github.com/daosgava/data-structures-and-algorithms/blob/main/exercises/mergeTwoArrays.js)
--   [Merge Two Sorted Arrays](https://github.com/daosgava/data-structures-and-algorithms/blob/main/exercises/mergeTwoSortedArrays.js)
--   [Find Needle](https://github.com/daosgava/data-structures-and-algorithms/blob/main/exercises/findNeedle.js)
--   [Largest Consecutive Product](https://github.com/daosgava/data-structures-and-algorithms/blob/main/exercises/largestConsecutiveProduct.js)
--   [Is It Subset](https://github.com/daosgava/data-structures-and-algorithms/blob/main/exercises/isSubset.js)
--   [Get Intersection](https://github.com/daosgava/data-structures-and-algorithms/blob/main/exercises/getIntersection.js)
--   [ATM Withdraw](https://github.com/daosgava/data-structures-and-algorithms/blob/main/exercises/withdraw.js)
--   [Duplicated Zeros](https://github.com/daosgava/data-structures-and-algorithms/blob/main/exercises/duplicatedZeros.js)
--   [Delete Duplicated Nums](https://github.com/daosgava/data-structures-and-algorithms/blob/main/exercises/deletingDuplicatedNumbers.js)
+-   [Palindrome checker](https://github.com/daosgava/data-structures-and-algorithms/blob/main/src/exercises/palindromeChecker.js)
+-   [Duplicated Number](https://github.com/daosgava/data-structures-and-algorithms/blob/main/src/exercises/hasDuplicatedNumber.js)
+-   [Two Numbers Product](https://github.com/daosgava/data-structures-and-algorithms/blob/main/src/exercises/twoNumbersProduct.js)
+-   [Merge Two Arrays](https://github.com/daosgava/data-structures-and-algorithms/blob/main/src/exercises/mergeTwoArrays.js)
+-   [Merge Two Sorted Arrays](https://github.com/daosgava/data-structures-and-algorithms/blob/main/src/exercises/mergeTwoSortedArrays.js)
+-   [Find Needle](https://github.com/daosgava/data-structures-and-algorithms/blob/main/src/exercises/findNeedle.js)
+-   [Largest Consecutive Product](https://github.com/daosgava/data-structures-and-algorithms/blob/main/src/exercises/largestConsecutiveProduct.js)
+-   [Is It Subset](https://github.com/daosgava/data-structures-and-algorithms/blob/main/src/exercises/isSubset.js)
+-   [Get Intersection](https://github.com/daosgava/data-structures-and-algorithms/blob/main/src/exercises/getIntersection.js)
+-   [ATM Withdraw](https://github.com/daosgava/data-structures-and-algorithms/blob/main/src/exercises/withdraw.js)
+-   [Duplicated Zeros](https://github.com/daosgava/data-structures-and-algorithms/blob/main/src/exercises/duplicatedZeros.js)
+-   [Delete Duplicated Nums](https://github.com/daosgava/data-structures-and-algorithms/blob/main/src/exercises/deletingDuplicatedNumbers.js)
 
 ## Data Structures
 
--   [Hash Table](https://github.com/daosgava/data-structures-and-algorithms/blob/main/dataStructures/HashTable.js)
--   [Stack](https://github.com/daosgava/data-structures-and-algorithms/blob/main/dataStructures/Stack.js)
+-   [Hash Table](https://github.com/daosgava/data-structures-and-algorithms/blob/main/src/dataStructures/HashTable.js)
+-   [Stack](https://github.com/daosgava/data-structures-and-algorithms/blob/main/src/dataStructures/Stack.js)
 
 ## Commands
 
