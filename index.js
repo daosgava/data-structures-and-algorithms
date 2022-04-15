@@ -22,7 +22,7 @@ import {
 import { HashTable, Stack } from './src/dataStructures/index.js';
 
 console.log(`
-    	*** ಠωಠ Playground ***
+    	*** Playground ಠωಠ ***
 `);
 
 const arrForSelectionSort = [4, 3, 5, 6, 1, 1, 8, 9, 2];
