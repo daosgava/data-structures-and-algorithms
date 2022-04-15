@@ -25,6 +25,7 @@ The 💡 is to go through different algorithms and provide their complexity in t
 -   [Delete Duplicated Nums](https://github.com/daosgava/data-structures-and-algorithms/blob/main/exercises/deletingDuplicatedNumbers.js)
 
 ## Data Structures
+
 -   [Hash Table](https://github.com/daosgava/data-structures-and-algorithms/blob/main/dataStructures/HashTable.js)
 -   [Stack](https://github.com/daosgava/data-structures-and-algorithms/blob/main/dataStructures/Stack.js)
 

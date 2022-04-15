@@ -8,20 +8,20 @@
 */
 
 const getIntersection = (arr1, arr2) => {
-    const subsection = [];
-    const tempObj = {};
+	const subsection = [];
+	const tempObj = {};
 
-    for (const num of arr1) {
-        tempObj[num] = true;
-    }
+	for (const num of arr1) {
+		tempObj[num] = true;
+	}
 
-    for (const num2 of arr2) {
-        if (tempObj[num2]) {
-            subsection.push(num2);
-        }
-    }
+	for (const num2 of arr2) {
+		if (tempObj[num2]) {
+			subsection.push(num2);
+		}
+	}
 
-    return subsection;
+	return subsection;
 };
 
 // O(n * m) -> O(n)
