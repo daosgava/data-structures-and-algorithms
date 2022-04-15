@@ -19,18 +19,19 @@
 */
 
 const removeDuplicates = (nums) => {
-    let ptr1 = 0, ptr2 = 1;
-    while(ptr2 < nums.length){
-        if(nums[ptr2] > nums[ptr1]) {
-            ptr1++;
-            nums[ptr1] = nums[ptr2];
-        }
-        ptr2++;
-    }
-    
-    // ptr1 is a position
-    // Add 1 to get the length 
-    return ptr1+1;
+	let ptr1 = 0,
+		ptr2 = 1;
+	while (ptr2 < nums.length) {
+		if (nums[ptr2] > nums[ptr1]) {
+			ptr1++;
+			nums[ptr1] = nums[ptr2];
+		}
+		ptr2++;
+	}
+
+	// ptr1 is a position
+	// Add 1 to get the length
+	return ptr1 + 1;
 };
 
 // Time complexity O(n)

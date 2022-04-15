@@ -1,34 +1,49 @@
 {
-  "name": "data-structures-and-algorithms",
-  "version": "1.0.0",
-  "description": "Studing data structures and algorithms",
-  "main": "index.js",
-  "type": "module",
-  "engines": {
-    "npm": ">=8.5.0",
-    "node": ">=16.14.2"
-  },
-  "scripts": {
-    "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/daosgava/data-structures-and-algorithms.git"
-  },
-  "keywords": [
-    "data",
-    "structures",
-    "algorithms"
-  ],
-  "author": "Daniel Garcia",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/daosgava/data-structures-and-algorithms/issues"
-  },
-  "homepage": "https://github.com/daosgava/data-structures-and-algorithms#readme",
-  "devDependencies": {
-    "eslint": "^8.13.0",
-    "prettier": "2.6.2"
-  }
+	"name": "data-structures-and-algorithms",
+	"version": "1.0.0",
+	"description": "Studing data structures and algorithms",
+	"main": "index.js",
+	"type": "module",
+	"engines": {
+		"npm": ">=8.5.0",
+		"node": ">=16.14.2"
+	},
+	"scripts": {
+		"start": "node index.js",
+		"lint": "npx eslint src index.js",
+		"lint:fix": "npm run lint -- --fix",
+		"prettier": "npx prettier src index.js --check",
+		"prettier:fix": "npm run prettier -- --write",
+		"prepare": "husky install"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/daosgava/data-structures-and-algorithms.git"
+	},
+	"keywords": [
+		"data",
+		"structures",
+		"algorithms"
+	],
+	"author": "Daniel Garcia",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/daosgava/data-structures-and-algorithms/issues"
+	},
+	"homepage": "https://github.com/daosgava/data-structures-and-algorithms#readme",
+	"devDependencies": {
+		"eslint": "^8.13.0",
+		"eslint-config-prettier": "^8.5.0",
+		"husky": "^7.0.4",
+		"lint-staged": "^12.3.7",
+		"prettier": "2.6.2"
+	},
+	"husky": {
+		"hooks": {
+			"pre-commit": "lint-staged"
+		}
+	},
+	"lint-staged": {
+		"*": "prettier --write --ignore-unknown"
+	}
 }
