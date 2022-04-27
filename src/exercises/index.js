@@ -10,6 +10,7 @@ import getIntersection from './getIntersection.js';
 import withdraw from './withdraw.js';
 import duplicateZeros from './duplicateZeros.js';
 import deletingDuplicatedNumbers from './deletingDuplicatedNumbers.js';
+import validMountainArray from './validMountainArray.js';
 
 export {
 	hasDuplicatedNumber,
@@ -24,4 +25,5 @@ export {
 	withdraw,
 	duplicateZeros,
 	deletingDuplicatedNumbers,
+	validMountainArray,
 };

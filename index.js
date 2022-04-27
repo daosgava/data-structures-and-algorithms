@@ -18,6 +18,7 @@ import {
 	withdraw,
 	duplicateZeros,
 	deletingDuplicatedNumbers,
+	validMountainArray,
 } from './src/exercises/index.js';
 import { HashTable, Stack } from './src/dataStructures/index.js';
 
@@ -126,3 +127,6 @@ console.log(`
 	arr length: ${deletingDuplicatedNumbers(arrForDeletingDuplicatedNumbers)}
 	mutated arr: ${arrForDeletingDuplicatedNumbers}
 `);
+
+const arrForValidMountainArray = [0, 1, 2, 3, 1];
+printPretty(validMountainArray, arrForValidMountainArray);

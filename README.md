@@ -23,6 +23,7 @@ The 💡 is to go through different algorithms and provide their complexity in t
 -   [ATM Withdraw](https://github.com/daosgava/data-structures-and-algorithms/blob/main/src/exercises/withdraw.js)
 -   [Duplicate Zeros](https://github.com/daosgava/data-structures-and-algorithms/blob/main/src/exercises/duplicateZeros.js)
 -   [Delete Duplicated Numbers](https://github.com/daosgava/data-structures-and-algorithms/blob/main/src/exercises/deletingDuplicatedNumbers.js)
+-   [Valid Mountain Array](https://github.com/daosgava/data-structures-and-algorithms/blob/main/src/exercises/validMountainArray.js)
 
 ## Data Structures
 
