@@ -12,7 +12,7 @@
     Input: arr = [3,5,5,1]
     Output: false
 
-    Input: arr = [2,1]
+    Input: arr = [2,1,0]
     Output: false
 */
 
