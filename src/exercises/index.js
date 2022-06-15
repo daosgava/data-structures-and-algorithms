@@ -11,6 +11,7 @@ import withdraw from './withdraw.js';
 import duplicateZeros from './duplicateZeros.js';
 import deletingDuplicatedNumbers from './deletingDuplicatedNumbers.js';
 import validMountainArray from './validMountainArray.js';
+import moveZeros from './moveZeros.js';
 
 export {
 	hasDuplicatedNumber,
@@ -26,4 +27,5 @@ export {
 	duplicateZeros,
 	deletingDuplicatedNumbers,
 	validMountainArray,
+	moveZeros,
 };
