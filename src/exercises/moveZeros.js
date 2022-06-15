@@ -20,7 +20,7 @@ const moveZeroes = (nums) => {
 		}
 	}
 
-	return nums; // Only display array
+	return nums; // Only to display array
 };
 
 // Complexity O(n)
