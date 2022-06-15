@@ -19,6 +19,7 @@ import {
 	duplicateZeros,
 	deletingDuplicatedNumbers,
 	validMountainArray,
+	moveZeros,
 } from './src/exercises/index.js';
 import { HashTable, Stack } from './src/dataStructures/index.js';
 
@@ -130,3 +131,6 @@ console.log(`
 
 const arrForValidMountainArray = [0, 1, 2, 3, 1];
 printPretty(validMountainArray, arrForValidMountainArray);
+
+const moveZerosArr = [0, 1, 0, 3, 12];
+printPretty(moveZeros, moveZerosArr);
