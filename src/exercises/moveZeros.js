@@ -20,7 +20,7 @@ const moveZeroes = (nums) => {
 		}
 	}
 
-	return nums; // I need to return it
+	return nums; // It's return to be display with the printPretty function
 };
 
 // Complexity O(n)
