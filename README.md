@@ -30,6 +30,8 @@ The 💡 is to go through different algorithms and provide their complexity in t
 
 -   [Hash Table](https://github.com/daosgava/data-structures-and-algorithms/blob/main/src/dataStructures/HashTable.js)
 -   [Stack](https://github.com/daosgava/data-structures-and-algorithms/blob/main/src/dataStructures/Stack.js)
+-   [Graph](https://github.com/daosgava/data-structures-and-algorithms/blob/main/src/dataStructures/Graph.js)
+-   [Queue](https://github.com/daosgava/data-structures-and-algorithms/blob/main/src/dataStructures/Queue.js)
 
 ## Commands
 
