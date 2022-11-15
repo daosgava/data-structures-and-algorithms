@@ -21,7 +21,7 @@ import {
 	validMountainArray,
 	moveZeros,
 } from './src/exercises/index.js';
-import { HashTable, Stack } from './src/dataStructures/index.js';
+import { HashTable, Stack, Graph, Queue } from './src/dataStructures/index.js';
 
 console.log(`
     	*** Playground ಠωಠ ***
@@ -134,3 +134,36 @@ printPretty(validMountainArray, arrForValidMountainArray);
 
 const moveZerosArr = [0, 1, 0, 3, 12];
 printPretty(moveZeros, moveZerosArr);
+
+const myGraph = new Graph(6);
+const nodes = ['A', 'B', 'C', 'D', 'E', 'F'];
+
+for (const node of nodes) {
+	myGraph.addNode(node);
+}
+
+myGraph.addEdge('A', 'B');
+myGraph.addEdge('A', 'D');
+myGraph.addEdge('A', 'E');
+myGraph.addEdge('B', 'C');
+myGraph.addEdge('C', 'E');
+myGraph.addEdge('C', 'F');
+myGraph.addEdge('D', 'E');
+myGraph.addEdge('E', 'F');
+
+console.log(`### Graph ###`);
+myGraph.printGraph();
+console.log(`### bts Traversal ###`);
+myGraph.bfs('A');
+console.log(`### Graph ###`);
+
+const myQueue = new Queue();
+myQueue.enqueue(7);
+myQueue.dequeue();
+myQueue.enqueue(6);
+myQueue.enqueue(9);
+myQueue.enqueue(6);
+
+console.log(`### Queue ###`);
+console.log(myQueue.printQueue());
+console.log(`### Queue ###`);
