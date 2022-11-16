@@ -36,21 +36,40 @@ class Graph {
 		queue.enqueue(startingNode);
 
 		let queueElement = null;
-		let adjList = null;
+		let adjNodes = null;
 
 		while (!queue.isEmpty()) {
 			queueElement = queue.dequeue();
 			console.log(queueElement);
 
-			adjList = this.adjList.get(queueElement);
+			adjNodes = this.adjList.get(queueElement);
 
-			[...adjList].forEach((node) => {
+			[...adjNodes].forEach((node) => {
 				if (!visited[node]) {
 					visited[node] = true;
 					queue.enqueue(node);
 				}
 			});
 		}
+	}
+
+	dfs(startingNode) {
+		const visited = {};
+		this.dfsUtil(startingNode, visited);
+	}
+
+	dfsUtil(node, visited) {
+		visited[node] = true;
+		console.log(node);
+
+		const adjNodes = this.adjList.get(node);
+
+		[...adjNodes].forEach((node) => {
+			if (!visited[node]) {
+				visited[node] = true;
+				this.dfsUtil(node, visited);
+			}
+		});
 	}
 }
 

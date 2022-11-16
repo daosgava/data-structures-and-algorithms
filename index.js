@@ -155,6 +155,10 @@ console.log(`### Graph ###`);
 myGraph.printGraph();
 console.log(`### bts Traversal ###`);
 myGraph.bfs('A');
+console.log(`### bts Traversal ###`);
+console.log(`### dfs Traversal ###`);
+myGraph.dfs('A');
+console.log(`### dfs Traversal ###`);
 console.log(`### Graph ###`);
 
 const myQueue = new Queue();
