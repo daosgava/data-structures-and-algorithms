@@ -20,7 +20,6 @@ The 💡 is to go through different algorithms and provide their complexity in t
 -   [Largest Consecutive Product](https://github.com/daosgava/data-structures-and-algorithms/blob/main/src/exercises/largestConsecutiveProduct.js)
 -   [Is It Subset](https://github.com/daosgava/data-structures-and-algorithms/blob/main/src/exercises/isSubset.js)
 -   [Get Intersection](https://github.com/daosgava/data-structures-and-algorithms/blob/main/src/exercises/getIntersection.js)
--   [ATM Withdraw](https://github.com/daosgava/data-structures-and-algorithms/blob/main/src/exercises/withdraw.js)
 -   [Duplicate Zeros](https://github.com/daosgava/data-structures-and-algorithms/blob/main/src/exercises/duplicateZeros.js)
 -   [Delete Duplicated Numbers](https://github.com/daosgava/data-structures-and-algorithms/blob/main/src/exercises/deletingDuplicatedNumbers.js)
 -   [Valid Mountain Array](https://github.com/daosgava/data-structures-and-algorithms/blob/main/src/exercises/validMountainArray.js)
